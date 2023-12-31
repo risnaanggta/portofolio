@@ -9,7 +9,7 @@ const Work = () => {
       <h1 className="project-heading">Project</h1>
       <div className="project-container">
         {WorkCardData.map((val, ind) => {
-          return <WorkCard key={ind} imgsrc={val.imgsrc} title={val.title} text={val.text} view={val.view} />;
+          return <WorkCard key={ind} imgsrc={val.imgsrc} title={val.title} text={val.text} view={val.view} source={val.source} />;
         })}
       </div>
     </div>
