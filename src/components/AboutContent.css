@@ -10,7 +10,7 @@
 
 .about .left {
   margin: auto;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 .about .left p {
@@ -19,7 +19,7 @@
 
 .about .right {
   margin: auto;
-  max-width: 800px;
+  max-width: 500px;
 }
 
 .right .skill {
