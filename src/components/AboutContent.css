@@ -93,21 +93,12 @@
   }
 }
 
-@keyframes html {
+@keyframes htmlcss {
   0% {
     width: 0%;
   }
   100% {
     width: 90%;
-  }
-}
-
-@keyframes css {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
   }
 }
 
@@ -117,5 +108,14 @@
   }
   100% {
     width: 60%;
+  }
+}
+
+@keyframes php {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
   }
 }
