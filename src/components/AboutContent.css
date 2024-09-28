@@ -1,0 +1,121 @@
+.about {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.about .left {
+  margin: auto;
+  max-width: 500px;
+}
+
+.about .left p {
+  margin: 0.5rem 0;
+}
+
+.about .right {
+  margin: auto;
+  max-width: 500px;
+}
+
+.right .skill {
+  width: 400px;
+  margin: 60px auto;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.right .skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.right .skill .bar {
+  background: #353b48;
+  display: block;
+  height: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.right .skill .bar:hover {
+  box-shadow: 0 14px 280x rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.right .skill .bar span {
+  height: 15px;
+  float: left;
+  background: linear-gradient(135deg, rgba(246, 250, 4, 0.822) 0%, rgb(220, 255, 18) 100%);
+}
+
+.right .skill h1 {
+  text-align: center;
+}
+
+.right .skill h3 {
+  margin: 5px;
+}
+
+.uiux {
+  width: 60%;
+  animation: uiux 3s;
+}
+
+.htmlcss {
+  width: 90%;
+  animation: htmlcss 3s;
+}
+
+.js {
+  width: 60%;
+  animation: js 3s;
+}
+
+.php {
+  width: 50%;
+  animation: php 3s;
+}
+
+@keyframes uiux {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
